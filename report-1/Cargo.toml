@@ -1,0 +1,8 @@
+[package]
+name = "report-1"
+
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+candle-core = { workspace = true }

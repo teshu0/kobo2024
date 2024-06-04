@@ -1,0 +1,13 @@
+
+
+[workspace]
+members = ["report-1"]
+resolver = "2"
+
+[workspace.package]
+name = "kobo2024"
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.5.1" }
